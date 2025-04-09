@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCÍCIO 2</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de nascimento</h1>
+    </header>
+
+    <main>
+        <section>
+            <div id="area" >
+                <p>
+                    <strong>Ano de nascimento:</strong><input type="number" name="anas" id="anas" minlength="1" max="4" placeholder="ex.:2023" >
+                </p>
+                <p>
+                    <strong>Sexo:</strong>
+                    <input type="radio" name="sex" id="mas"  checked>
+                     <label for="mas">Homem</label>
+                     <input type="radio" name="sex" id="fem">
+                     <label for="fem">Mulher</label>
+                </p>
+                <input type="button" value="Enviar" onclick="verificar()">
+            </div>
+            <div id="res">
+        
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p> &copy;Esse site foi criado por <strong>Ulisses</strong></p>
+    </footer>
+    <script src="im.js"></script>
+</body>
+</html>
