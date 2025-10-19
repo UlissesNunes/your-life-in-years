@@ -41,7 +41,7 @@ function verificar() {
                     img.setAttribute('src' , 'imagem/idoso-homem.jpg')
                  }
                  
-                 res.appendChild(img)
+                 
                 
              } else if(sexof.checked) {
                  genero = 'mulher'

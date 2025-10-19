@@ -1,83 +1,39 @@
+*{ box-sizing: border-box; }
 
-*{
-    font-size: 1em;
-}
-body {
-    background-color: rgb(172, 167, 119);
-  
-    font-family: Arial, Helvetica, sans-serif;
-}
+
+body { background-image: url(/imagem/amarelo-abstracto-gradiente-fundo-4k_1046581-17.jpg); background-size: cover; background-attachment: fixed; font-family: Arial, Helvetica, sans-serif; 
+display: flex; flex-direction: column; min-height: 100vh; margin: 0; padding: 0; }
 
 
 
-header h1 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.548);
-    font-size: 2em;
-}
-
-main {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 265px;
-
-}
-
-section {
-    flex: auto;
-    background-color: white;
-    height: 300px;
-    width: 220px;
-    padding: 15px;
-    margin: auto;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.405);
-    border-radius: 15px;
-    
-}
+header { display: flex;
+     justify-content: space-between; align-items: center; background-color: transparent; box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.548); margin-bottom: 30px; }
 
 
-footer {
-   text-align: center;
-   color: white;
-  
-}
+header h1 { color: rgb(255, 255, 255); text-align: center; text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.548); font-size: 1.4em; } 
 
-input[type=button] {
-cursor: pointer;
-}
-p {
-    margin: 2px;
-    padding: 5px;
-}
+header img { width: 120px; margin: 0; height: auto; border-radius: 0; padding: 0; } 
 
-img {
-    display: block;
-    height: 140px;
-    width: 130px;
-    border-radius: 48%;
-    margin: auto;
-    
+main { margin: 0 auto; 
+    display: flex; justify-content: center; align-items: center; width: 80%; }
+
     
 
-}
+section { flex: auto; background-color: rgb(255, 255, 239); height: auto; width: 50px; padding: 15px; margin: auto; box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.405); border-radius: 15px; } 
 
-input[type=button] {
-    margin: auto;
-    width: 100%;
-    padding: 7px;
-    background-color:rgb(162, 157, 112);
-    color: rgb(255, 252, 212);
-  border: 1px solid rgb(107, 104, 74);
-}
+footer { text-align: center; color: white; }
 
-input[type=button]:hover {
-    background-color:rgb(223, 219, 168);
-    color: rgb(65, 63, 44);;
-}
+input[type=button]{ cursor: pointer; } 
 
-input[type=number] {
-  width: 100%;
-}
+
+p { margin: 2px; padding: 5px; }
+
+
+img { display: block; height: 140px; width: 130px; border-radius: 48%; margin: auto; } 
+
+
+input[type=button] { margin: auto; width: 100%; padding: 7px; background-color:rgb(162, 157, 112); color: rgb(255, 252, 212); border: 1px solid rgb(107, 104, 74); } 
+
+input[type=button]:hover { background-color:rgb(223, 219, 168); color: rgb(65, 63, 44);; } 
+
+input[type=number] { width: 100%; }
